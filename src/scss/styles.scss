@@ -23,4 +23,77 @@
 // Import partials:
 
 // Custom styles:
+header{
+  text-align: center;
+}
+
+.ship-log{
+  color: #ffffff;
+  font-family: "IM Fell English", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.diary{
+  color: #ffffff;
+  padding: 15px;
+  font-family: "Shalimar", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jumbo{
+  background-color: #ffffff;
+  background-image: url(../img/pirate-ship.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 75px;
+}
+
+.monsters{
+  padding-top: 20px;
+}
+
+footer{
+  background-color: aquamarine;
+  padding-bottom: 10px;
+}
+
+section{
+  padding: 20px
+}
+
+.byline-name{
+  font-size: 15px;
+  font-family: "Nobile", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.byline-source{
+  font-size: 15px;
+  font-family: "Nobile", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.carousel-container{
+  padding: 30px;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+}
 
